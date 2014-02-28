@@ -15,7 +15,6 @@
 <%
   RaidNode raidNode = (RaidNode) application.getAttribute("raidnode");
   String name = raidNode.getHostName();
-  name = name.substring(0, name.indexOf(".")).toUpperCase();
 %>
 
 <html>
